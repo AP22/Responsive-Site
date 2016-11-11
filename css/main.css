@@ -1,0 +1,298 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif|Oswald';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Droid Sans', 'more font stack stuff', sans-serif;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-color: #443F47;
+}
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+h1{
+    font: bold 4.236rem 'Oswald', 'more font stack stuff', serif;
+}
+h2{
+    font: bold 2.618rem 'Oswald', 'more font stack stuff', serif;
+}
+li, p, a{
+    font: bold 1.3rem 'Droid Sans', 'more font stack stuff', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+}
+nav{
+    width: 100%;
+}
+nav>ul{
+    width: 100%;
+}
+nav li{
+    width: 100%;
+    list-style: none;
+	border: 2px solid #555; 
+	float: left;
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    text-align: center;
+	color: blue;
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+	background-color: #7C84ED;  
+}
+main{
+    width: 100%;
+}
+.col1{
+    float: none;
+    width: 100%;
+}
+.col1 img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-color: azure;
+}
+
+.col2{
+	float:none;
+	width: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+@media screen and (min-width:600px){
+	
+	h1{
+		font: bold 2.8rem 'Oswald', 'more font stack stuff', serif;
+	}
+	h2{
+		font: bold 1.4rem 'Oswald', 'more font stack stuff', serif;
+	}
+	li, p, a{
+		font: bold 1rem 'Droid Sans', 'more font stack stuff', sans-serif;
+	}
+	pre, code, kbd{
+		font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+	}
+	
+	.wrapper{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	nav{
+		margin-left: 40px;
+		width: 90%;
+		float: left;
+	}
+	nav>ul{
+		width: 100%;
+	}
+	nav li{
+		width: 20%;
+		list-style: none;
+		border: 2px solid #555; 
+		float: left;
+	}
+	
+	main{
+		width: 90%;
+		float: right;
+	}
+	.col1{
+		margin: 0 0 0 0;
+		padding: 20px;
+		float: left;
+		width: 50%;
+	}
+	.col1 img{
+		float: left;
+		width: 60%;
+		height: auto;
+		max-width: 100%;
+		background-color: azure;
+	}
+
+	.col2{
+		
+		padding: 20px;
+		float: right;
+		width: 50%;
+	}
+
+	footer{
+		clear: both;
+		width: 90%;
+	}
+ 
+}
+@media screen and (min-width: 800px){
+	
+	h1{
+		font: bold 2.8rem 'Oswald', 'more font stack stuff', serif;
+	}
+	h2{
+		font: bold 1.4rem 'Oswald', 'more font stack stuff', serif;
+	}
+	li, p, a{
+		font: bold 1rem 'Droid Sans', 'more font stack stuff', sans-serif;
+	}
+	pre, code, kbd{
+		font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+	}
+
+	nav{
+		margin: 0 0 0 0;
+		width: 100%;
+		float: left;
+	}
+	nav>ul{
+		width: 100%;
+	}
+	nav li{
+		width: 20%;
+		list-style: none;
+		border: 2px solid #555; 
+		float: left;
+	}
+	
+	main{
+		width: 90%;
+		float: right;
+	}
+	.col1{
+		margin: 0 0 0 0;
+		padding: 20px;
+		float: left;
+		width: 50%;
+	}
+	.col1 img{
+		float: left;
+		width: 60%;
+		height: auto;
+		max-width: 100%;
+		background-color: azure;
+	}
+
+	.col2{
+		
+		padding: 20px;
+		float: right;
+		width: 50%;
+	}
+
+	footer{
+		clear: both;
+		width: 100%;
+	}
+
+}
+@media screen and (min-width: 1200px){
+	
+	h1{
+		font: bold 2.618rem 'Oswald', 'more font stack stuff', serif;
+	}
+	h2{
+		font: bold 1.3rem 'Oswald', 'more font stack stuff', serif;
+	}
+	li, p, a{
+		font: bold 0.9rem 'Droid Sans', 'more font stack stuff', sans-serif;
+	}
+	pre, code, kbd{
+		font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+	}
+		
+	nav{
+		padding-top: 50px;
+		width: 30%;
+		float: left;
+	}
+	nav>ul{
+		width: 100%;
+	}
+	nav li{
+		width: 100%;
+		list-style: none;
+		border: none; 
+		float: left;
+	}
+	
+	main{
+		width: 70%;
+		float: right;
+	}
+	.col1{
+		margin: 0 0 0 0;
+		padding: 20px;
+		float: left;
+		width: 50%;
+	}
+	.col1 img{
+		float: left;
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+		background-color: azure;
+	}
+
+	.col2{
+		
+		padding: 20px;
+		float: right;
+		width: 50%;
+	}
+
+	footer{
+		clear: both;
+		width: 100%;
+	}
+	
+}
